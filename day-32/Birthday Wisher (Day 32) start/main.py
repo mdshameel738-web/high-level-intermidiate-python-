@@ -7,9 +7,9 @@ quotes_file = os.path.join(os.path.dirname(__file__), "quotes.txt")
 with open(quotes_file, "r", encoding="utf-8") as file:
     quotes = [line.strip() for line in file if line.strip()]
 
-my_email = "systemkali741@gmail.com"
-my_password = "ixabnpinpimljfoa"
-recipient_email = "mdshameel740@gmail.com"
+my_email = "your@gmail.com"
+my_password = "your_password"
+recipient_email = "trail@gmail.com"
 
 now = dt.datetime.now()
 weekday = now.weekday()
