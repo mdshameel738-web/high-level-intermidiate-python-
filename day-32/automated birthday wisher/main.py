@@ -29,8 +29,8 @@ if today_tuple in birthdays_dict:
     with open(letter_path, "r", encoding="utf-8") as letter_file:
         letter_text = letter_file.read().replace("[NAME]", name)
 
-    my_email = "systemkali741@gmail.com"
-    my_password = "ixabnpinpimljfoa"
+    my_email = "your@gmail.com"
+    my_password = "your_passsword"
 
     with smtplib.SMTP("smtp.gmail.com", 587) as connection:
         connection.starttls()
